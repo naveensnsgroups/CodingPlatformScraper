@@ -13,7 +13,7 @@ from motor.motor_asyncio import AsyncIOMotorCollection
 import asyncio
 from concurrent.futures import ProcessPoolExecutor
 
-app = FastAPI(title="Job Scraper API")
+app = FastAPI(title="Coding Problem Scraper API")
 
 # Fix for Playwright subprocesses on Windows
 if sys.platform == 'win32':
