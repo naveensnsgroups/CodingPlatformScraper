@@ -47,10 +47,6 @@ CodingPlatformScraper/
 - MongoDB instance
 - pip (Python package manager)
 
-##  Installation
-
-###Installation
-
 ### 1. Clone the Repository
 
 git clone https://github.com/naveensnsgroups/CodingPlatformScraper.git
@@ -96,6 +92,7 @@ The API will be available at `http://localhost:8000`
 ### API Documentation
 
 Once running, visit:
+
 - **Swagger UI**: http://localhost:8000/docs
 
 ## Configuration
@@ -105,6 +102,7 @@ Once running, visit:
 Create a .env file with the following variables:
 
 # MongoDB Configuration
+
 MONGODB_URL=mongodb://localhost:27017
 DATABASE_NAME=coding_platform_scraper
 
